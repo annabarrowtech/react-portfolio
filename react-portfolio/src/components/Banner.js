@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full-Stack Web Developer", "MuleSoft Integration Architect", "Salesforce Administrator" ];
+  const toRotate = [ "Full-Stack Web Developer/>", "MuleSoft Integration Architect/>", "Salesforce Administrator/>" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Anna `} <span className="wrap">{text}</span></h1>
+                <h1>{`<I'm Anna Barrow `} <span className="wrap">{text}</span></h1>
                   <p>Software Engineer with three years of experience in project management, client satisfaction, and Full-Stack Development.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
