@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-
+import projImg1 from "../assets/img/project-img1.jpg";
+import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -10,15 +12,18 @@ export const Projects = () => {
 	const projects = [
 		{
 			title: "DnD Character Sheet Project",
-			description: "Interactive Full-Stack",
+			description: "Interactive Full-Stack Project",
+			imgUrl: projImg1,
 		},
 		{
-			title: "DnD Character Sheet Project",
-			description: "Interactive Full-Stack",
+			title: "Local Freelance Restaurant Website",
+			description: "Web Development | Freelance",
+			imgUrl: projImg2,
 		},
 		{
-			title: "DnD Character Sheet Project",
-			description: "Interactive Full-Stack",
+			title: "Password Generator Application",
+			description: "Dynamically Updating Website",
+			imgUrl: projImg3,
 		},
 	];
 
@@ -60,10 +65,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum</p>
+                      <p></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum</p>
+                      <p></p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
