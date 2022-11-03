@@ -1,4 +1,4 @@
-import { Col, Container } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import meter1 from "../assets/img/meter1.svg"
@@ -36,7 +36,7 @@ export const Skills = () => {
 							<h2>
 								Skills
 							</h2>
-							<p>Filler Text</p>
+							<p>Accumulated skills earned through Accenture Fortune 500 project experience and local freelance work.</p>
 							<Carousel responsive={responsive} infinite={true} className="skill-slider">
 								<div className='item'>
 									<img src={meter1} alt="Image" />
